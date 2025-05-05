@@ -93,11 +93,12 @@ export default function Home() {
 							{/* Mobile order: text first, image second */}
 							<div className="order-1 md:order-2 md:w-1/2 text-center md:text-left">
 								<ScrollAnimation animation="fade-down">
-									<h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-										Meal Planning Made{' '}
+									<h1 className="text-6xl md:text-8xl font-bold tracking-tight">
 										<span className="text-[#EBC48B]">
-											Simple
+											Eatzy{' '}
 										</span>
+										<br />
+										does it
 									</h1>
 								</ScrollAnimation>
 
