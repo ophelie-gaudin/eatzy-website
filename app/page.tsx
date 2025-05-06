@@ -286,7 +286,7 @@ export default function Home() {
 										Android device.
 									</p>
 									<a
-										href="https://drive.google.com/uc?export=download&id=1qNoDe4moxMQ-57-gkJZ67lZxV2tx0Lp1"
+										href="https://www.dropbox.com/scl/fi/zu2dhncifvl096s0q53w9/eatzy-android.apk?rlkey=a9ntrn6nk1m0krct9rtgj010b&st=8wpr3mhz&dl=0"
 										target="_blank"
 										rel="noopener noreferrer"
 									>
