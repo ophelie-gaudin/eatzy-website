@@ -9,6 +9,10 @@ import {
 	Calendar,
 	Apple,
 	AlertCircle,
+	Clock,
+	Recycle,
+	ShoppingCart,
+	Lightbulb,
 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useEffect, useState } from 'react'
@@ -337,6 +341,77 @@ export default function Home() {
 
 				{/* GSAP Animated Timeline */}
 				<AnimatedTimeline />
+
+				{/* Call to Action Section */}
+				<section className="py-20 bg-[#FFF8EB]">
+					<div className="container">
+						<div className="max-w-3xl mx-auto text-center">
+							<h2 className="text-3xl md:text-4xl font-bold mb-6">
+								Ready to Transform Your Meal Planning?
+							</h2>
+							<p className="text-lg text-gray-600 mb-6">
+								Stop stressing about what to cook and start
+								enjoying delicious, personalized meals with
+								Eatzy.
+							</p>
+							<div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+								<div className="p-4 bg-white rounded-lg shadow-sm">
+									<div className="flex justify-center mb-2">
+										<Clock className="h-6 w-6 text-[#EBC48B]" />
+									</div>
+									<h3 className="font-semibold text-[#EBC48B]">
+										Save Time
+									</h3>
+									<p className="text-sm text-gray-600">
+										No more hours spent planning meals
+									</p>
+								</div>
+								<div className="p-4 bg-white rounded-lg shadow-sm">
+									<div className="flex justify-center mb-2">
+										<Recycle className="h-6 w-6 text-[#EBC48B]" />
+									</div>
+									<h3 className="font-semibold text-[#EBC48B]">
+										Reduce Waste
+									</h3>
+									<p className="text-sm text-gray-600">
+										Minimize food waste and "gaspillage"
+									</p>
+								</div>
+								<div className="p-4 bg-white rounded-lg shadow-sm">
+									<div className="flex justify-center mb-2">
+										<ShoppingCart className="h-6 w-6 text-[#EBC48B]" />
+									</div>
+									<h3 className="font-semibold text-[#EBC48B]">
+										Shop Smarter
+									</h3>
+									<p className="text-sm text-gray-600">
+										Avoid unnecessary purchases
+									</p>
+								</div>
+								<div className="p-4 bg-white rounded-lg shadow-sm">
+									<div className="flex justify-center mb-2">
+										<Lightbulb className="h-6 w-6 text-[#EBC48B]" />
+									</div>
+									<h3 className="font-semibold text-[#EBC48B]">
+										Stay Inspired
+									</h3>
+									<p className="text-sm text-gray-600">
+										Never run out of meal ideas
+									</p>
+								</div>
+							</div>
+							<Link href="#download">
+								<Button
+									size="lg"
+									className="bg-[#EBC48B] hover:bg-[#e0b673] text-black px-8 py-6 text-lg"
+								>
+									Download Eatzy{' '}
+									<ArrowRight className="ml-2 h-5 w-5" />
+								</Button>
+							</Link>
+						</div>
+					</div>
+				</section>
 			</main>
 			<footer className="py-6 bg-[#FFF8EB] border-t border-[#EBC48B]">
 				<div className="container flex flex-col md:flex-row justify-between items-center">
