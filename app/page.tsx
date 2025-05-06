@@ -281,16 +281,29 @@ export default function Home() {
 										<Download className="h-5 w-5 text-[#EBC48B]" />{' '}
 										Android Download
 									</h3>
-									<p className="text-gray-600 mb-6">
+									<p className="text-gray-600 mb-4">
 										Download the Eatzy app directly to your
 										Android device.
 									</p>
+									<ol className="list-decimal list-inside space-y-1 text-gray-600 !text-left">
+										<li>Click the download button below</li>
+										<li>
+											Select "Open in browser" when
+											prompted
+										</li>
+										<li>CLick on "Download"</li>
+										<li>Allow permissions if requested</li>
+										<li>
+											Open the downloaded APK file to
+											install
+										</li>
+									</ol>
 									<a
 										href="https://www.dropbox.com/scl/fi/zu2dhncifvl096s0q53w9/eatzy-android.apk?rlkey=a9ntrn6nk1m0krct9rtgj010b&st=8wpr3mhz&dl=0"
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										<Button className="w-full bg-[#EBC48B] hover:bg-[#e0b673] text-black">
+										<Button className="w-full bg-[#EBC48B] hover:bg-[#e0b673] text-black mt-4">
 											Download for Android
 										</Button>
 									</a>
@@ -301,45 +314,19 @@ export default function Home() {
 										<Apple className="h-5 w-5 text-[#EBC48B]" />{' '}
 										iOS Download
 									</h3>
-									<p className="text-gray-600 mb-4">
-										Follow these steps to install Eatzy on
-										your iOS device:
+									<p className="text-gray-600 mb-6">
+										The iOS version of Eatzy is currently in
+										development.
 									</p>
-									<div className="text-left">
-										<ol className="space-y-3 list-decimal list-inside">
-											<li>
-												Download Expo Go from the{' '}
-												<a
-													href="https://expo.dev/client"
-													target="_blank"
-													rel="noopener noreferrer"
-													className="text-[#EBC48B] hover:underline"
-												>
-													App Store
-												</a>
-											</li>
-											<li>Open Expo Go once installed</li>
-											<li>
-												Scan the QR Code or paste{' '}
-												<a
-													href="https://expo.dev/@your-username/your-app-slug"
-													target="_blank"
-													rel="noopener noreferrer"
-													className="text-[#EBC48B] hover:underline"
-												>
-													this link
-												</a>
-											</li>
-											<li>
-												The app will open inside Expo Go
-												automatically
-											</li>
-										</ol>
-										<p className="mt-4 text-sm text-gray-500">
-											⚠️ You need to be connected to the
-											internet. No installation is
-											required — the app runs inside Expo
-											Go.
+									<div className="text-center p-4 bg-gray-50 rounded-md">
+										<p className="text-sm font-medium text-gray-500">
+											Coming Soon
+										</p>
+										<p className="mt-2 text-gray-600">
+											We're working hard to bring Eatzy to
+											iOS devices. Please check back later
+											or sign up for our newsletter to be
+											notified when it becomes available.
 										</p>
 									</div>
 								</div>
